@@ -1,0 +1,6 @@
+*.csv
+*.rds
+*.RData
+*.Rhistory
+*.log
+*.idea/
