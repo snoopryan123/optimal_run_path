@@ -16,7 +16,7 @@ g['train'] = train_ind
 g.query('train').shape[0]/g.shape[0]
 
 ### load response column
-response = pd.read_csv('data/kr_data/V_response.csv') #pd.read_csv('drive/My Drive/kaggle/BDB22/V.csv')
+response = pd.read_csv('data/kr_data/V_response.csv')
 V = response['Vf']
 V.name='V'
 
